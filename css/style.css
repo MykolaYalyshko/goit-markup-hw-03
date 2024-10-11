@@ -29,6 +29,11 @@ a {
 button {
     cursor: pointer;
 }
+
+img {
+    display: block;
+}
+
 .container {
     max-width: 1158px;
     padding: 0 15px;
@@ -61,7 +66,6 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-top: 24px;
 }
 
 .logo-right {
@@ -108,8 +112,6 @@ button {
     padding: 24px 0;
 }
 
-
-
 .header-link:hover,
 .header-link:focus,
 .contacts-link:hover,
@@ -122,14 +124,13 @@ button {
     text-align: center;
 }
 
-.main_container {
+.container {
     width: 1158px;
     margin: 0 auto;
 }
 
-.main-title_title{
-    padding-top: 188px;
-    width: 496px;
+.main-title-title {
+    max-width: 496px;
     margin: 0 auto;
     font-weight: 700;
     font-size: 56px;
@@ -137,27 +138,28 @@ button {
     letter-spacing: 0.02em;
     color: #fff;
     text-transform: capitalize;
-    margin-bottom: 48px;
+    padding: 188px 0;
 }
 
 .button-btn{
     background: #4d5ae5;
     color:  #ffffff;
+    margin: 0 auto;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;  
-    margin-bottom: 188px;
     border: none;
     white-space: nowrap;
 }
 
 .button-clich {
+    display: block;
     border-radius: 4px;
     padding: 16px 32px;
-    width: 169px;
     height: 56px;
+    min-width: 169px
 }
 
 .button-btn:hover {
@@ -168,20 +170,23 @@ button {
     background-color: #404BBF
 }
 
+.feature {
+    width: calc((100% - 72px) / 4);
+}
 .feature-container {
     width: 1158px;
     margin: 0 auto;
 }
 
+
 .feature-list {
     display: flex;
     justify-content: space-between;
-    margin-top: 120px;
-    margin-bottom: 120px;
+    padding: 188px 0;
 }
 
 .feature-item {
-    margin-right: 24px;
+    gap: 24px;
 }
 .feature-titile_normal {
     font-weight: 500;
@@ -206,7 +211,7 @@ button {
     background-color:#F4F4FD;
 }
 
-.ourteam_container{
+.container{
     width: 1158px;
     margin: 0 auto;
 }
@@ -266,7 +271,7 @@ button {
     color: #434455;
 }
 
-.portfolio_container {
+.container {
     width: 1158px;
     margin: 0 auto;
 }
