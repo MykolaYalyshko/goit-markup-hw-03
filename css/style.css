@@ -29,22 +29,28 @@ a {
 button {
     cursor: pointer;
 }
-
-.header_container {
-    width: 1158px;
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
     margin: 0 auto;
 }
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+.header_container {
+    display: flex;
+    align-items: center;
+}
 
-.header-container_header,
 .header-nav {
     display: flex;
-    justify-content: space-between;
-    
+    align-items: center;
 }
 
 .header-list {
     display: flex;
-    margin-top: 24px;
+    align-items: center;
+    gap: 40px;
 }
 
 .logo {
@@ -56,46 +62,50 @@ button {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-top: 24px;
-    margin-right: 76px;
 }
 
 .logo-right {
     color: #2e2f42;
 }
 
+.logo-left {
+    margin-right: 76px;
+    padding: 24px 0;
+}
+
 .header-link {
+    display: block;
+    padding: 23px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    }
-
-.header-item {
-    margin-right: 40px;
 }
 
-.header-link:last-child,
-.contacts-link:last-child {
-    margin-right: 0px;
-}
+
+
+
 
 .contacts {
-    text-align: right;
+    margin-left: auto;
     font-style: normal;
 }
 
 .contacts-list {
     display: flex;
-    margin-top: 24px;
+    align-items: center;
+    gap: 24px;
 }
 
 .contacts-link {
+    display: block;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     margin-right: 40px;
+    padding: 24px 0;
 }
 
 
@@ -319,9 +329,10 @@ button {
 .footer-text {
     width: 264px;
     font-size: 16px;
+    margin-bottom: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    padding-top: 16px;
-    padding-bottom: 100px;
+    padding: 100px 0 100px;
+    
 }
