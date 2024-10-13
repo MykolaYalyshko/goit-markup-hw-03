@@ -199,8 +199,8 @@ img {
 }
 
 .feature-item {
-    width: calc((100% - 72px) / 4);
     margin-right: 24px;
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .feature-item:last-child {
