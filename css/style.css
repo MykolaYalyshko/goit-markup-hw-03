@@ -177,7 +177,6 @@ img {
 .container {
     width: 1158px;
     margin: 0 auto;
-    
 }
 
 .visually-hidden {
@@ -194,8 +193,13 @@ img {
     overflow: hidden;
 }
 
+.feature-title {
+    margin-bottom: 8px;
+}
+
 .feature-list {
     display: flex;
+    gap: 24px;
 }
 
 .feature-item {
