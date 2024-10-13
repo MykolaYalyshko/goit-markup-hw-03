@@ -176,6 +176,10 @@ img {
     padding-bottom: 120px;
 }
 
+.feature_title {
+    flex-basis: calc((100% - 3 * 24px) / 4); 
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -194,7 +198,6 @@ img {
 }
 
 .feature-list {
-    flex-basis: calc((100% - 3 * 24px) / 4); 
     display: flex;
     gap: 24px;
 }
