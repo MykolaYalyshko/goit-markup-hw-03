@@ -66,7 +66,6 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    padding: 24px 0;
 }
 
 .logo-right {
@@ -168,8 +167,11 @@ img {
     background-color: #404BBF;
 }
 
+.feature {
+    padding: 188px 0;
+}
 
-.feature-container {
+.container {
     width: 1158px;
     margin: 0 auto;
 }
@@ -181,7 +183,7 @@ img {
 .feature-list {
     display: flex;
     justify-content: space-between;
-    padding: 188px 0;
+    
 }
 
 .feature-item {
