@@ -256,7 +256,12 @@ img {
     text-align: center;
     margin-right: 24px;
     margin-bottom: 120px;
+    border-radius: 0px 0px 4px 4px;
 } 
+
+.ourteam-box {
+    padding: 32px 0;
+}
 
 .ourteam-text {
     margin-bottom: 32px;
