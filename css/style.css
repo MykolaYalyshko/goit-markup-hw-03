@@ -130,6 +130,11 @@ img {
     margin: 0 auto;
 }
 
+.main-box {
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+
 .main-title-title {
     max-width: 496px;
     margin: 0 auto;
@@ -139,7 +144,7 @@ img {
     letter-spacing: 0.02em;
     color: #fff;
     text-transform: capitalize;
-    padding: 188px 0;
+    margin-bottom: 48px;
 }
 
 .button-btn{
