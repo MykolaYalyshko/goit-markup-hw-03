@@ -292,13 +292,11 @@ img {
     justify-content: space-between;
     column-gap: 24px; 
     row-gap: 48px; 
-}
-
-.portfolio-box {
-    padding: 120px 0 120px 0;
+    
 }
 
 .potrfolio-item {
+    display: block;
     width: calc((100% - 48px) / 3);
 }
 
