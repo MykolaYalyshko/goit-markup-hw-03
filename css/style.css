@@ -230,6 +230,7 @@ img {
 
 .ourteam {
     background-color:#F4F4FD;
+    padding: 120px 0;
 }
 
 .container{
@@ -238,7 +239,6 @@ img {
 }
 
 .ourteam-title {
-    padding-top: 120px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11111;
@@ -255,7 +255,6 @@ img {
     background-color:#FFFFFF;
     text-align: center;
     margin-right: 24px;
-    margin-bottom: 120px;
     border-radius: 0px 0px 4px 4px;
 } 
 
@@ -278,11 +277,10 @@ img {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    margin-top: 120px;
     margin-bottom: 72px;
 }
 
-.ourteam-title_title {
+.ourteam-title-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
