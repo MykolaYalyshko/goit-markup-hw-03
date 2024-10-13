@@ -88,10 +88,6 @@ img {
     color: #2e2f42;
 }
 
-
-
-
-
 .contacts {
     margin-left: auto;
     font-style: normal;
@@ -123,16 +119,12 @@ img {
 .main-title {
     background: #2e2f42;
     text-align: center;
-    padding: 188px 0
+    padding: 188px 0;
 }
 
 .container {
     width: 1158px;
     margin: 0 auto;
-}
-
-.main-box {
-    
 }
 
 .main-title-title {
@@ -165,15 +157,15 @@ img {
     border-radius: 4px;
     padding: 16px 32px;
     height: 56px;
-    min-width: 169px
+    min-width: 169px;
 }
 
 .button-btn:hover {
-    background-color: #404BBF
+    background-color: #404BBF;
 }
 
 .button-btn:focus {
-    background-color: #404BBF
+    background-color: #404BBF;
 }
 
 
