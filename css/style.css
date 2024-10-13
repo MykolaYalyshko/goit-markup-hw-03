@@ -111,7 +111,8 @@ img {
     padding: 24px 0;
 }
 
-.contacts-link:last-child {
+.contacts-link:last-child,
+.header-link:last-child  {
     margin-right: 0; 
 }
 
