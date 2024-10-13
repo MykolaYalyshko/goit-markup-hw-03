@@ -123,6 +123,7 @@ img {
 .main-title {
     background: #2e2f42;
     text-align: center;
+    padding: 188px 0
 }
 
 .container {
@@ -131,8 +132,7 @@ img {
 }
 
 .main-box {
-    padding-top: 188px;
-    padding-bottom: 188px;
+    
 }
 
 .main-title-title {
