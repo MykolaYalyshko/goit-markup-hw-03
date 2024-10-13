@@ -111,6 +111,10 @@ img {
     padding: 24px 0;
 }
 
+.contacts-link:last-child {
+    margin-right: 0; 
+}
+
 .header-link:hover,
 .header-link:focus,
 .contacts-link:hover,
