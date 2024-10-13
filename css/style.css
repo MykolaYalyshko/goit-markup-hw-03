@@ -174,7 +174,6 @@ img {
     margin: -1px;
     border: 0;
     padding: 0;
-
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -186,13 +185,14 @@ img {
 }
 
 .feature-list {
+     
     display: flex;
     gap: 24px;
 }
 
 .feature-item {
     margin-right: 24px;
-    flex-basis: calc((100% - 3 * 24px) / 4)
+    flex-basis: calc((100% - 3 * 24px) / 4); 
 }
 
 .feature-item:last-child {
