@@ -341,25 +341,21 @@ img {
     margin-bottom: 32px;
 }
 
-
-
-.footer-footer {
+.page-footer {
     background: #2e2f42;
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
-.footer_container {
-    background: #2e2f42;
-}
-
 .container {
     width: 1158px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
-.ft-logo {
-    margin-bottom: 16px; 
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo_right {
