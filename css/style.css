@@ -234,12 +234,16 @@ img {
 
 .ourteam-list {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding-left: 0;
+    margin: 0;
 }
 
 .ourteam-item {
     background-color:#FFFFFF;
     text-align: center;
-    margin-right: 24px;
     border-radius: 0px 0px 4px 4px;
 } 
 
