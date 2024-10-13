@@ -292,11 +292,9 @@ img {
     justify-content: space-between;
     column-gap: 24px; 
     row-gap: 48px; 
-    
 }
 
 .potrfolio-item {
-    display: block;
     width: calc((100% - 48px) / 3);
 }
 
