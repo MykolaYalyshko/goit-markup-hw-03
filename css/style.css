@@ -191,17 +191,22 @@ img {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+    margin-bottom: 8px;
 }
 
 .feature-list {
     display: flex;
     justify-content: space-between;
-    
 }
 
-.feature-box {
-    gap: 24px;
+.feature-item {
+    margin-right: 24px
 }
+
+.feature-item:last-child {
+    margin-right: 0;
+}
+
 .feature-titile_normal {
     font-weight: 500;
     font-size: 20px;
