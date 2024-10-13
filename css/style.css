@@ -66,6 +66,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    padding: 24px 0;
 }
 
 .logo-right {
@@ -170,14 +171,15 @@ img {
     background-color: #404BBF
 }
 
-.feature {
-    width: calc((100% - 72px) / 4);
-}
+
 .feature-container {
     width: 1158px;
     margin: 0 auto;
 }
 
+.visually-hidden {
+    margin-bottom: 8px;
+}
 
 .feature-list {
     display: flex;
